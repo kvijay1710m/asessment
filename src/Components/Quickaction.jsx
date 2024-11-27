@@ -7,7 +7,7 @@ const Quickaction = () => {
     <div className=" w-[340px]  md:ml-[260px] mt-[-30px] bg-gray-50 p-6 rounded-lg shadow-md">
       <h2 className="text-lg  font-bold mb-4">Quick Actions</h2>
       <div className="flex justify-between items-center">
-        <button className="text-gray-500 ">&lt;</button> 
+        <button className="text-gray-500 ">&lt;</button> {/* Left Arrow */}
         <div className="grid grid-cols-4 gap-5  ">
           {/* Action Button 1 */}
           <div className="flex flex-col items-center ">

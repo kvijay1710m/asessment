@@ -1,8 +1,8 @@
 import React from "react";
 
 const MyOrder = ({
-  orderId = "345",
-  date = "Jan 09, 2024",
+  orderId = "12345",
+  date = "Apr 09, 2024",
   customerName = "Aanath Kumar",
   phone = "+91 8526547512",
   address = "Paalai, Tirunelveli",
@@ -10,7 +10,7 @@ const MyOrder = ({
     { name: "Orange", quantity: 12, price: 100 },
     { name: "Water Melon", quantity: 5, price: 50 },
   ],
-  totalAmount = 150,
+  totalAmount = 120,
   paymentStatus = "PAID - UPI",
   onConfirm,
   onReject,
